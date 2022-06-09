@@ -1,6 +1,4 @@
-define(["require", "exports"], function (require, exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
+
     function getTradeData(dataCount) {
         var employees = [
             'Michael', 'Kathryn', 'Tamer', 'Martin', 'Davolio', 'Nancy', 'Fuller', 'Leverling', 'Peacock',
@@ -24415,4 +24413,3 @@ define(["require", "exports"], function (require, exports) {
             ShipRegion: 'NM', ShipPostalCode: '87110', ShipCountry: 'USA', Freight: 48.29, Verified: !0
         }
     ];
-});
