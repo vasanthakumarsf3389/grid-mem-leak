@@ -31,11 +31,11 @@
     var flag = true;
     document.getElementById('render').addEventListener('click', renderGrid);
     document.getElementById('destroy').addEventListener('click', destoryGrid);
-    data.createLazyLoadData();
+    imports.createLazyLoadData();
     function renderGrid() {
         var autoComplete;
         grid = new grid_1.Grid({
-            dataSource: data.lazyLoadData,
+            dataSource: lazyLoadData,
             enableVirtualization: true,
             height: 400,
             editSettings: { allowEditing: true, allowDeleting: true, mode: 'Normal', newRowPosition: 'Top' },
